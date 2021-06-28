@@ -20,7 +20,7 @@ def getAngleDif(f, t):
 
 
 def update():
-    if held_keys['a']:
+    if held_keys['x']:
         me.rotation_y, me.camera_pivot.rotation_x = getAngleDif(me, enemy)
 
 
